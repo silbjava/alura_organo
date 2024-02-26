@@ -5,9 +5,11 @@
 }
 
 .formulario form{
-    max-width: 80%;
-    background-color: #949e91;
-    border-radius: 20px;
-    padding: 36px 64px;
+    max-width: 50%;
+    background-color: #4888e9;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: small;
+    border: rgb(5, 129, 131);
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.0);
 }

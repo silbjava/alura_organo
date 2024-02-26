@@ -8,7 +8,7 @@ export const Time = (props) => {
         <section className='time' style={{ backgroundColor: props.corSec }}>
             <h3 style={{ borderColor: props.corPrim }}>{props.nome}</h3>
             <div className='colaboradores'>
-                {props.colaboradores.map(colaborador => <Colaborador nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem} />)}
+                {props.colaboradores.map(colaborador => <Colaborador key={colaborador.nome} corDeFundo={props.corPrim} nome={colaborador.nome} cargo={colaborador.cargo} imagem={colaborador.imagem} />)}
 
             </div>
         </section>
